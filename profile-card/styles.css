@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: "kumbh sans";
+    src: url("KumbhSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "kumbh sans";
+    src: url("KumbhSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+html {
+    height: 100%;
+}
+
+body {
+min-height: 100vh;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: teal; 
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: right bottom, top left;
+    background-repeat: no-repeat;
+    
+
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.top-section {
+    display: flex;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.1px solid lightgrey;
+    background-color: white;
+    height: 145px;
+}
+
+.profile-picture {
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid white;
+    margin-top: -50px;
+    
+}
+
+.lower-section {
+    height: 85px;
+    background-color: white;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.age {
+    margin-left: 10px;
+    color: darkgray;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    color: darkgray;
+    font-size: 14px;
+    
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-family: "kumbh sans";
+    font-size: 18px;;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-followers {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.number-likes {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.number-photos {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.followers {
+    color: darkgray;
+    font-size: 12px;
+}
+
+.likes {
+    color: darkgray;
+    font-size: 12px;
+}
+
+.photos {
+    color: darkgray;
+    font-size: 12px;
+}
