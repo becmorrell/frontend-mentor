@@ -64,9 +64,8 @@ Major learning points whilst working through this project:
     - how to create the round profile picture using border-radius and placing a border around this 
     - then position this half way between two containers 
     See code here:
-      ```
-      css
-      .profile-picture {
+    ```css
+    .profile-picture {
     display: flex;
     border-radius: 50%;
     overflow: hidden;
