@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background-color: hsl(257, 40%, 49%);
     background-image: url('images/bg-mobile.svg');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
     background-attachment: fixed;
     background-size: contain;
 }
@@ -23,7 +25,7 @@
 }
 .header {
     display: flex;
-    width: 30%;
+    width: 500px;   
     margin-left: 37px;
     margin-top: 37px;
 }
@@ -72,12 +74,12 @@ h1 {
     display: flex;
     justify-content: center;
 
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .register button {
     font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 400;
 
     text-align: center;
@@ -87,10 +89,13 @@ h1 {
     border: none;
     border-radius: 16px;
     padding: 10px 60px;
+    box-shadow: 1px 1px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 .register button:hover {
     background-color: hsl(300, 69%, 71%);
+    color: white;
 }
 
 .social {
@@ -99,42 +104,41 @@ h1 {
     align-items: center;
 
     color: white;
-    font-size: 9px;
+    font-size: 16px;
 }
 
 .logos {
     display: flex;
     justify-content: center ;
     border: 1px solid white;
-    border-radius: 13px;
-    padding: 8px;
+    border-radius: 15px;
+    padding: 6.5px;
     margin-right: 10px;
-    height: 26px;
-    width: 26px;
-}
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
 
 
 .twitter {
     border: 1px solid white;
-    border-radius: 50%;
-    padding: 8px;
     margin-right: 10px;
-    height: 26px;
-    width: 26px;
+    
 }
 
 .instagram {
     border: 1px solid white;
-    border-radius: 50%;
-    padding: 8px;
-    height: 26px;
-    width: 26px;
+    padding: 6px;
+    
 
 }
 @media only screen and (max-width: 400px){
-    body {
-        
+    .flex-content {
+        margin-bottom: 40px;
+    }
+
+    .content {
+        margin-bottom: 40px;
     }
 }
 
@@ -144,7 +148,7 @@ h1 {
         margin: 0 auto;
     }
     .header {
-        width: 100%
+        width:500px;
     }
     
     .flex-content {

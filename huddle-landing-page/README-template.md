@@ -48,6 +48,8 @@ This is the second project - this really helped to embed some of the html and cs
 learning points: 
 - when styling ```<h1> and <p>``` in my css I orginally started out trying to style the container, however soon realised that styling the text is more appropriate - for eg text-align: left. 
 - Inserting button and achieveing a hover state 
+- Adding box-shadow for the register button (found at https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
+- Adding `cursor: pointer` to both buttons and social media icons to make it more obvious there is a link to be clicked
 - Using @media queries to make a responsive design - Initially I struggled with positioning the 'web-image' and the 'community-profile' - however when I placed them inside another flexbox, this made positioning much easier with the responsive design.
 - The first time inserting social icons onto the page - this was difficult to position them inside the circle when the height of 'fb' symbol was distorting the circle to be more like an oval. 
   - I  learnt to treat the icons as 'text' to style them
