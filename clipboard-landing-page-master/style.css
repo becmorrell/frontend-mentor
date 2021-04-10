@@ -25,15 +25,16 @@
 }
 
 .image-logo {
-    wdith: 50%;
+    width: 50%;
 }
 
 .image-computer {
-    width: 50%;
+    width: 80%;
+    margin-bottom: 55px;
 }
 
 .image-tablet {
-    width: 50%;
+    width: 100%;
 }
 
 h1 {
@@ -49,11 +50,33 @@ h1 {
 p {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.6;
     text-align: center;
-    color: hsl(201, 11%, 66%)
-    
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 55px;
 }
+
+h2 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color:  hsl(210, 10%, 33%);
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:  hsl(210, 10%, 33%);
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 .title {
     display: flex;
@@ -80,6 +103,7 @@ p {
     margin-bottom: 23px;
     border-radius: 32px;
     border: none;
+    cursor: pointer;
 }
 
 .mac button {
@@ -90,4 +114,97 @@ p {
     box-shadow: 0.5px 2.5px 0px -0.5px hsl(237, 100%, 64%);
     border: none;
     margin-bottom: 160px;
+    cursor: pointer;
+}
+
+.snippets {
+    margin-right: 37px;
+    margin-left: 37px;
+    margin-bottom: 65px;
+}
+
+.computer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-sync-history {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 130px
+}
+
+.sync, 
+.history {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.access-clipboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 130px;   
+}
+
+.supercharge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 28px;
+    margin-left: 28px;
+}
+
+.icon {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.company-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+    margin-bottom: 170px;
+}
+
+.preview {
+        margin-bottom: 75px;
+}
+
+.clipboard-text {
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 48px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    width: 25%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 55px;
+
 }
