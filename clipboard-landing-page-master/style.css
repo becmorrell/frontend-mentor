@@ -97,7 +97,7 @@ h3 {
     margin-left: 20px;
     margin-right: 20px;
     width: calc(100% - 40px);
-    max-width: 471px;
+    max-width: 510px;
 }
 
 .button {
@@ -139,7 +139,7 @@ h3 {
     margin-left: 37px;
     margin-bottom: 65px;
     width: calc(100% - 74px);
-    max-width: 471px;
+    max-width: 610px;
 }
 
 .computer-info {
@@ -158,9 +158,10 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 26px;
-    margin-right: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
     margin-bottom: 130px;   
+    width: 100%;
 }
 
 .supercharge {
@@ -310,5 +311,21 @@ ul {
 
     .search-sync-history > * > h3, .search-sync-history > * > p {
         text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
+    .clipboard, .image-tablet {
+        width: 50%;
+    }
+
+   .image-tablet {
+       padding-top: 40px;
+   }
+
+   .access-clipboard {
+       margin-bottom: 90px;
+   }
+
+
 }
