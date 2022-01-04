@@ -125,8 +125,12 @@ main {
     margin-left: 50px;
 }
 
-question > p:hover {
-    
+.question-row > p:hover {
+    color: #F6B094;
+}
+
+.question:hover {
+    cursor: pointer;
 }
     
 }
