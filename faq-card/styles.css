@@ -1,20 +1,72 @@
-body {
-    background-color: Soft violet: hsl(273, 75%, 66%);
+html, body, main {
+    height: 100vh;
 }
 
-.main {
+body {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+p, h2 {
+font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .faq-container {
     display: flex;
     flex-direction: column ;
     align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 32px;
+    margin-left: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 40px;
+    padding-top: 100px;
 }
 
 .question {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: hsl(237, 12%, 33%);
+    border-bottom: 1px solid hsl(240, 5%, 91%);
 }
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+#shadow {
+    margin: -50px;
+    z-index: 1;
+}
+
+#women { 
+    margin: -30px;
+    z-index: 2;
+}
+
+.answer{
+    display: none;
+}   
+
+.expanded {
+    display: flex;
+}
+
+.question.expanded > p:first-child {
+    font-weight: 700;
+}
+
