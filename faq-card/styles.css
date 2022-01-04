@@ -10,6 +10,10 @@ p, h2 {
 font-family: 'Kumbh Sans', sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -19,7 +23,7 @@ main {
 .faq-container {
     display: flex;
     flex-direction: column ;
-    align-items: center;
+    align-content:space-around;
     background-color: white;
     border-radius: 20px;
     margin-right: 32px;
@@ -33,11 +37,19 @@ main {
 .question {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 12px;
     font-weight: 300;
     color: hsl(237, 12%, 33%);
     border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.question-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .image-container {
@@ -59,14 +71,50 @@ main {
 }
 
 .answer{
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 32px;
+    margin: 0;
+    transition: max-height ease-in-out 0.3s, padding ease-in-out 0.3s;
 }   
 
-.expanded {
-    display: flex;
+.question > .question-row > img {
+    transition: transform 0.3s ease;
 }
 
-.question.expanded > p:first-child {
+.question.expanded > :first-child {
     font-weight: 700;
 }
 
+.question.expanded > .question-row > img {
+    transform: rotate(-180deg);
+}
+
+.question.expanded > .answer {
+    max-height: 200px;
+    padding-bottom: 10px;
+}
+
+/* Tablet/desktop */
+
+@media only screen and (min-width: 601px) {
+
+ main {
+        flex-direction: row;
+        align-items: center;
+    
+    }
+
+.question {
+        max-width: 400px;
+        align-self: flex-end;
+    }
+
+.faq-container {
+        max-width: 600px;
+}    
+
+
+    
+}
