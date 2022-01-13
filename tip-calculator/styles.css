@@ -102,3 +102,11 @@ label {
 .error-text {
     display: none;
 }
+
+.reveal-error {
+    display: block;
+}
+
+.error {
+    border: 1px solid red;
+}
