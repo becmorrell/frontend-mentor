@@ -17,16 +17,17 @@
         <img src="./images/logo.svg" alt="Splitter-logo">
     </div>
     <div class="tip-container">
-        <div class="bill-entry">
-            <div class="bill">
-                <label for="bill" id="bill-text">Bill</label>
-            </div>
-            <div class="input-container">
+        <div class="left-container">
+            <div class="bill-entry">
+             <div class="bill">
+                  <label for="bill" id="bill-text">Bill</label>
+               </div>
+                <div class="input-container">
                 <img src="./images/icon-dollar.svg" alt="icon-dollar">
                 <input id="bill-amount" type="number" placeholder="0" step="0.01">
+                </div>
             </div>
-        </div>
-        <div class="select-tip">
+           <div class="select-tip">
             <label for="tip-percentage-input">Select Tip %</label>
             <div class="btn-container">
                 <button class="btn" value="5" type="button">5%</button>
@@ -36,30 +37,41 @@
                 <button class="btn" value="50" type="button">50%</button>
                 <input id="tip-percentage-input" placeholder="Custom" type="number" class="custom-input">
             </div>
-        </div>    
-        <div class="people">
+           </div>    
+          <div class="people">
             <label for="no-of-people-input" id="NOP-text">Number of People<span class="error-text">Can't be zero</span></label>
             <div class="NOP-container">
                 <img src="./images/icon-person.svg" alt="icon-person">
                <input id="no-of-people" type="value" placeholder="0" class="custom-input">
             </div>
 
+         </div>
         </div>
-        <div class="tip-calculation">
+        <div class="right-container">
+            <div class="tip-calculation">
             <div class="tip-amount">
             <div class="amount-title">
-                <p>Tip Amount</p>  <p>/ person</p></div>   
-            £<span class="tip-output" value="0.00">0.00</span>
+                <p>Tip Amount</p>  <p id="person">/ person</p></div>  
+            <div class="price">
+                <p>£</p>
+                <span class="tip-output" value="0.00" step="0.01" >0.00</span>
+            </div>     
+           
             </div>
 
             <div class="total-amount">
             <div class="amount-title">    
-                <p>Total</p><p>/ person</p>
-            </div>   
-                £<span class="total-output" value="0.00">0.00</span>
+                <p>Total</p><p id="person">/ person</p>
+            </div> 
+            <div class="price">
+                <p>£</p>
+                <span class="total-output" value="0.00" step="0.01">0.00</span>
+            </div>  
+                
             </div>
             <button class="btn-reset">RESET</button>
-        </div>       
+             </div> 
+        </div>           
     </div>
     
     <script src="script.js"></script>

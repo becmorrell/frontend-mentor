@@ -72,10 +72,7 @@ function calculation() {
     totalOutput.textContent = totalAmountpp;  
     
     }
-    else if (people === 0)
-     {  elPeoplecontainer.classList.add(".error");
-        error.classList.add('.reveal-error');
-    }
+    
     else {
         tipOutput.textContent = 0.00;
         totalOutput.textContent  = 0.00;
