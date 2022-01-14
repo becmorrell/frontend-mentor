@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/becmorrell/frontend-mentor/tree/main/faq-card](https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html]
+- Solution URL: [https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html](https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html]
 - Live Site URL: [https://becmorrell.github.io/frontend-mentor/tip-calculator/index.html](https://becmorrell.github.io/frontend-mentor/tip-calculator/index.html)
 
 ## My process
@@ -40,9 +40,10 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
+
 ### Screenshot 
 
-<p align ="left">Active States</p>
+<p align ="left">Active State:</p>
 
 
 <img width="400" alt="tip" src="https://user-images.githubusercontent.com/77584099/149530679-935203b4-7751-4a8b-adc9-7fdefd585a46.png">
@@ -61,6 +62,7 @@ Users should be able to:
 
 
 **JavaScript:**
+
 I practiced the following:
 
 - Using `ParseFloat()` to pass a number entered by the user into a floating point number.
