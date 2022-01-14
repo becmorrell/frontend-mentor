@@ -67,19 +67,19 @@ I practiced the following:
 
 * Using `ParseFloat()` to pass a number entered by the user into a floating point number.
 * Adding `eventListener` on all buttons:
-                            * for each button, the correct percentage is calculated
-                            * for the custom input button, the input is calculated into a percentage.
+    * for each button, the correct percentage is calculated
+    * for the custom input button, the input is calculated into a percentage.
 
 * Added "active" state to selected tip button:
-                                        * using `document.querySelectorAll("active)` to remove classlist prior to adding new active state (This allows only one button to be selected at any particular time).
-                                        * added active state to current event target.
+    * using `document.querySelectorAll("active)` to remove classlist prior to adding new active state (This allows only one button to be selected at any particular time).
+    * added active state to current event target.
 
 * Created ```function calculation()```:
-                                        * Calculates total tip per person to be paid.
-                                        * Calculates total price per person including tip. 
-                                        * Rounds to 2 decimal places.
-                                        * Will not run if number of people is not entered.
-                                        * Updates instantly as cost / tip / number of people is changed by user. 
+    * Calculates total tip per person to be paid.
+    * Calculates total price per person including tip. 
+    * Rounds to 2 decimal places.
+    * Will not run if number of people is not entered.
+    * Updates instantly as cost / tip / number of people is changed by user. 
 
 
 ## Author
