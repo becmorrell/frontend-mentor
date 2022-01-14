@@ -54,10 +54,10 @@ Users should be able to:
 
 **CSS**
 
-  - I found using the selector `tip-container > *` useful to style with padding instead of adding it individually to each child inside that container. 
-  - I created a simple setup for this project to be able to flow easily from mobile device to desktop.
+  * I found using the selector `tip-container > *` useful to style with padding instead of adding it individually to each child inside that container. 
+  * I created a simple setup for this project to be able to flow easily from mobile device to desktop.
 
-  - Used a `@media (hover: hover)` query to only allow hover states on hover-capable devices.
+  * Used a `@media (hover: hover)` query to only allow hover states on hover-capable devices.
 
 
 
@@ -65,21 +65,21 @@ Users should be able to:
 
 I practiced the following:
 
-- Using `ParseFloat()` to pass a number entered by the user into a floating point number.
-- Adding `eventListener` on all buttons:
-                            - for each button, the correct percentage is calculated
-                            - for the custom input button, the input is calculated into a percentage.
+* Using `ParseFloat()` to pass a number entered by the user into a floating point number.
+* Adding `eventListener` on all buttons:
+                            * for each button, the correct percentage is calculated
+                            * for the custom input button, the input is calculated into a percentage.
 
-- Added "active" state to selected tip button:
-                                        - using `document.querySelectorAll("active)` to remove classlist prior to adding new active state (/(This allows only one button to be selected at any particular time).
-                                        - added active state to current event target.
+* Added "active" state to selected tip button:
+                                        * using `document.querySelectorAll("active)` to remove classlist prior to adding new active state (This allows only one button to be selected at any particular time).
+                                        * added active state to current event target.
 
-- Created ```function calculation()```:
-                                        - Calculates total tip per person to be paid.
-                                        - Calculates total price per person including tip. 
-                                        - Rounds to 2 decimal places.
-                                        - Will not run if number of people is not entered.
-                                        - Updates instantly as cost / tip / number of people is changed by user. 
+* Created ```function calculation()```:
+                                        * Calculates total tip per person to be paid.
+                                        * Calculates total price per person including tip. 
+                                        * Rounds to 2 decimal places.
+                                        * Will not run if number of people is not entered.
+                                        * Updates instantly as cost / tip / number of people is changed by user. 
 
 
 ## Author
