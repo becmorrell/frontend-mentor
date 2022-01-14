@@ -7,6 +7,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Screenshot](#screenshot)
   - [Challenges](#challenges)
 - [Author](#author)
 
@@ -26,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/becmorrell/frontend-mentor/tree/main/faq-card](https://github.com/becmorrell/frontend-mentor/tree/main/
-- Live Site URL: [https://becmorrell.github.io/frontend-mentor/faq-card/index.html](https://becmorrell.github.io/frontend-mentor/)
+- Solution URL: [https://github.com/becmorrell/frontend-mentor/tree/main/faq-card](https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html]
+- Live Site URL: [https://becmorrell.github.io/frontend-mentor/tip-calculator/index.html](https://becmorrell.github.io/frontend-mentor/tip-calculator/index.html)
 
 ## My process
 
@@ -38,6 +39,11 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - JavaScript
+
+### Screenshot 
+
+Active States:
+<img width="400" alt="tip" src="https://user-images.githubusercontent.com/77584099/149530679-935203b4-7751-4a8b-adc9-7fdefd585a46.png">
 
 
 ### Challenges 🧠
