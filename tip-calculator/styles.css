@@ -134,6 +134,7 @@ body {
 
 #tip-percentage-input {
     width: 124px;
+    height: 36px;
     border: none;
     border-radius: 6px;
     background-color: hsl(189, 41%, 97%);
@@ -231,6 +232,10 @@ label {
     margin-left: 10px;
     border: none;
     border-radius: 8px;
+}
+
+#pound {
+    width: 12px;
 }
 
 @media only screen and (min-width: 601px) {
