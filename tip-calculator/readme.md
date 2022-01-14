@@ -42,7 +42,9 @@ Users should be able to:
 
 ### Screenshot 
 
-Active States:
+<p align = "center">Active States</p>
+
+
 <img width="400" alt="tip" src="https://user-images.githubusercontent.com/77584099/149530679-935203b4-7751-4a8b-adc9-7fdefd585a46.png">
 
 
