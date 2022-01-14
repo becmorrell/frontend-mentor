@@ -42,15 +42,16 @@ Users should be able to:
 
 ### Screenshot 
 
-<p align = "center">Active States</p>
+<p align ="left">Active States</p>
 
 
 <img width="400" alt="tip" src="https://user-images.githubusercontent.com/77584099/149530679-935203b4-7751-4a8b-adc9-7fdefd585a46.png">
 
 
+
 ### Challenges 🧠
 
-CSS:
+**CSS**
 
   - I found using the selector `tip-container > *` useful to style with padding instead of adding it individually to each child inside that container. 
   - I created a simple setup for this project to be able to flow easily from mobile device to desktop.
@@ -58,7 +59,8 @@ CSS:
   - Used a `@media (hover: hover)` query to only allow hover states on hover-capable devices.
 
 
-JavaScript:
+
+**JavaScript:**
 I practiced the following:
 
 - Using `ParseFloat()` to pass a number entered by the user into a floating point number.
@@ -70,7 +72,7 @@ I practiced the following:
                                         - using `document.querySelectorAll("active)` to remove classlist prior to adding new active state (/(This allows only one button to be selected at any particular time).
                                         - added active state to current event target.
 
-- Created a ```js  function calculation()```:
+- Created ```function calculation()```:
                                         - Calculates total tip per person to be paid.
                                         - Calculates total price per person including tip. 
                                         - Rounds to 2 decimal places.
