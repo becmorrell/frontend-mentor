@@ -55,12 +55,7 @@ body {
     cursor: pointer;
 }
 
-button:hover {
-   background-color:  hsl(185, 41%, 84%);
-   color: hsl(183, 100%, 15%);
-}
-
-button:focus {
+.active {
     background-color: #26C2AD;
 }
 
@@ -79,6 +74,7 @@ button:focus {
     flex-grow: 1;
     color:  hsl(183, 100%, 15%);
     font-family: 'Space Mono', monospace;
+    outline: none;
 }
 
 .input-container {
@@ -129,9 +125,11 @@ button:focus {
     font-size: 24px;
     text-align: right;
     width: 100px;
+    height: 34px;
     flex-grow: 1;
     color: hsl(183, 100%, 15%);
     font-family: 'Space Mono', monospace;
+    outline: none;
 }
 
 #tip-percentage-input {
@@ -207,10 +205,18 @@ label {
 
 .reveal-error {
     display: block;
+    font-size: 10px;
+    color: #EA5050;
 }
 
 .error {
-    border: 1px solid red;
+    border: 1px solid #EA5050;
+}
+
+#people-text-error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .btn-reset {
@@ -258,4 +264,12 @@ label {
     width: 55%;
     padding-right: 12px;
     padding-left: 12px;
+}
+}
+
+@media (hover: hover) {
+    button:hover {
+        background-color:  hsl(185, 41%, 84%);
+        color: hsl(183, 100%, 15%);
+     }
 }

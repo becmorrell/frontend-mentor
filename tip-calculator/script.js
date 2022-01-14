@@ -28,8 +28,16 @@ tipButtons.forEach(button => {
     button.addEventListener('click', (e) => {
       percentage = (e.target.value) / 100;
         console.log(percentage);
-        calculation();
-    })
+
+    const activeButtons = document.querySelectorAll(".active");
+        
+    activeButtons.forEach(item => {
+        item.classList.remove('active');
+    });
+    e.target.classList.add('active');
+
+    calculation();   
+})
 });
 
 //get custom value tip
@@ -42,8 +50,17 @@ customPercent.addEventListener('input', function() {
 //get NOP entered
 NOP.addEventListener("input", function() {
     people = parseInt(NOP.value);
-    console.log(people);
+
+    if (!people){
+        error.classList.add('reveal-error');
+        elPeoplecontainer.classList.add('error');
+    }
+    else {
+        error.classList.remove('reveal-error');
+        elPeoplecontainer.classList.remove('error');
+    }
     calculation();
+
 });
 
 //reset button
@@ -78,4 +95,3 @@ function calculation() {
         totalOutput.textContent  = "0.00";
     }
     } 
-    
