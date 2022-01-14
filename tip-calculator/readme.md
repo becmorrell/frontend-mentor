@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html](https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html]
+- Solution URL: [https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html](https://github.com/becmorrell/frontend-mentor/tree/main/tip-calculator/index.html)
 - Live Site URL: [https://becmorrell.github.io/frontend-mentor/tip-calculator/index.html](https://becmorrell.github.io/frontend-mentor/tip-calculator/index.html)
 
 ## My process
