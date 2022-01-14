@@ -65,17 +65,17 @@ NOP.addEventListener("input", function() {
 
 function calculation() {
     if (people > 0){
-        tipTotal = (billValue * percentage) / people;
-    tipOutput.textContent = tipTotal;
+        tip = billValue * percentage
+        tipTotal = tip / people;
+    tipOutput.textContent = Math.round(tipTotal * 100) / 100;
 
-    totalAmountpp = (billValue + tipTotal) / people;
-    totalOutput.textContent = totalAmountpp;  
-    
+    totalAmountpp = (billValue + tip) / people;
+    totalOutput.textContent = Math.round(totalAmountpp * 100) / 100;
     }
-    
+
     else {
-        tipOutput.textContent = 0.00;
-        totalOutput.textContent  = 0.00;
+        tipOutput.textContent = "0.00";
+        totalOutput.textContent  = "0.00";
     }
     } 
     
