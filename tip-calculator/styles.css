@@ -232,6 +232,7 @@ label {
     margin-left: 10px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #pound {
