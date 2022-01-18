@@ -1,0 +1,139 @@
+html {
+    font-family: Roboto;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    padding-bottom: 80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.approved > p {
+    background-color: lightgreen;
+}
+
+.no-match {
+    background-color: lightcoral; 
+}
+
+.input-password {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.img-tick {
+    src: url(./images/tick.png);
+}
+
+#requirements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+#length {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#capital {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#symbol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#lower-case {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    background-color: lightgray;
+}
+
+.confirm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#pass, #check {
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+#check {
+   display: flex;
+    flex-grow: 1;
+}
+
+.entry-confirm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pass-detail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
