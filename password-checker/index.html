@@ -15,40 +15,42 @@
 </head>
 <body>
     <header> 
-        <h1>Password Checker</h1>
+        <h1>Enter your password</h1>
     </header>
 
     <main> 
-        <div class="input-password">
-            <label for="pass">Password</label>
-            <input type="password" id="pass" minlength="6" required placeholder="Password" autofocus>
-        </div>
+        <div class="border-container">
+            <div class="input-password">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" minlength="6" required placeholder="Password" autofocus>
+            </div>
 
-        <div id="requirements">
-            <div id="length">
-                <p>At least 6 Characters</p>
+            <div id="requirements">
+                <div id="length">
+                    <p>At least 6 Characters</p>
+                </div>
+                <div id="number">
+                    <p>Contains a number</p>    
+                </div>
+                <div id="capital">
+                    <p>Contains a capital</p>
+                </div>
+                <div id="symbol">
+                    <p>Contains a symbol</p>
+                </div>
+                <div id="lower-case">
+                    <p>Contains a lower case letter</p>
+                </div>    
             </div>
-            <div id="number">
-                <p>Contains a number</p>    
+            
+            <div class="confirm">
+                <label for="Confirm Password">Confirm Password</label>
+                <div class="entry-confirm">
+                <input type="password" id="check" minlength="6" required placeholder="Confirm Password"> 
+                <img class="confirm-default" src="./images/tick-default.png">
+                </div>    
             </div>
-            <div id="capital">
-                <p>Contains a capital</p>
-            </div>
-            <div id="symbol">
-                <p>Contains a symbol</p>
-            </div>
-            <div id="lower-case"></div>
-                <p>Contains a lower case letter</p>
-            </div>
-        </div>
-        
-        <div class="confirm">
-            <label for="Confirm Password">Confirm Password</label>
-            <div class="entry-confirm">
-            <input type="password" id="check" minlength="6" required placeholder="Confirm Password"> 
-            <img class="confirm-default" src="./images/tick-default.png">
-            </div>    
-        </div>
+         </div>
     </main>
     <script src="script.js"></script>
 </body>

@@ -7,7 +7,7 @@ const elLowerCase = document.querySelector("#lower-case");
 const elmatch = document.querySelector("#check");
 const elConfirm = document.querySelector("#confirm");
 
-const elImage = document.querySelector(".confirm-default")
+const elImage = document.querySelector(".confirm-default");
 
 const correct = "#81E88C";
 
@@ -37,13 +37,13 @@ elPassword.addEventListener('input', function(){
             elSymbol.classList.add("approved");
             continue;
         }
-        if(letter.toUpperCase() === letter) {
-            elcapital.classList.add("approved"); 
-            continue;  
-        }
-        if(letter.toLowerCase() === letter) {
+        if (letter.toLowerCase() === letter) {
             elLowerCase.classList.add("approved");   
             continue;
+        }
+        if (letter.toUpperCase() === letter) {
+            elcapital.classList.add("approved"); 
+            continue;  
         }
     }
 
@@ -55,6 +55,7 @@ elmatch.addEventListener('input', function(){
 
 function doTheymatch() {
 const confimPass = elmatch.value
+console.log(elmatch.value)
     if (confimPass.length > 0 && confimPass === elPassword.value) {
        elImage.src = "./images/tick.png";
     }

@@ -10,11 +10,23 @@ body {
 }
 
 header {
-    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 h1 {
     text-align: center;
+}
+
+p {
+    margin: 0px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    background-color: lightgray;
 }
 
 main {
@@ -37,6 +49,7 @@ main {
     display: flex;
     flex-direction: column;
     padding-right: 40px;
+    max-width: 400px;
 }
 
 .img-tick {
@@ -81,22 +94,14 @@ main {
 
 #lower-case {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     align-items: center;
-    margin-bottom: 10px;
-}
-
-p {
-    margin: 0px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 4px 8px 4px 8px;
-    background-color: lightgray;
 }
 
 .confirm {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 label {
@@ -136,4 +141,22 @@ img {
     height: 20px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.border-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+@media only screen and (min-width: 601px) {
+    .border-container {
+        width: 50%;
+    }
+
+    main {
+        align-items: center;
+    }
 }
